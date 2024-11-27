@@ -88,6 +88,12 @@
         <docker.jib-maven-plugin.version>3.4.3</docker.jib-maven-plugin.version>
         <docker.image.prefix>springcommunity</docker.image.prefix>
 
+        <version.server>31.0.0.Final</version.server>
+        <!-- the versions for BOMs, Packs and Plugins -->
+        <version.bom.ee>${version.server}</version.bom.ee>
+        <version.plugin.wildfly>5.1.0.Alpha1</version.plugin.wildfly>
+        
+
     </properties>
 
     <dependencyManagement>
