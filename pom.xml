@@ -334,23 +334,6 @@
         </dependency>
 
         <!-- Shawn changes -->
-  <dependency>
-      <groupId>javax.servlet.jsp</groupId>
-      <artifactId>javax.servlet.jsp-api</artifactId>
-      <version>2.3.3</version>
-      <scope>provided</scope>
-  </dependency>
-
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-web</artifactId>
-<exclusions>
-    <exclusion>
-        <artifactId>logback-classic</artifactId>
-        <groupId>ch.qos.logback</groupId>
-    </exclusion>
-</exclusions>
-</dependency>        
     </dependencies>
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
