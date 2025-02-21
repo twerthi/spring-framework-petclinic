@@ -16,7 +16,7 @@ pipeline {
             }
             stage ('Build') {
                 steps {
-                    bat 'mvn clean package -DskipTests=true -Dproject.versionNumber=${VERSION_NUMBER} -DgroupId=com.octopus -DartifactId=PetClinic.Web'
+                    bat "mvn clean package -DskipTests=true -Dproject.versionNumber=${VERSION_NUMBER} -DgroupId=com.octopus -DartifactId=PetClinic.Web"
                 }
             }
             stage ('Push') {
