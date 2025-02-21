@@ -1,0 +1,30 @@
+pipeline {
+    agent any
+    tools {
+        maven 'Maven',
+        jfrog 'JFrog CLI'
+    }
+    stages {
+            stage ('Set version') {
+                steps {
+                    script {
+                        TEST_VAR = new Date().format("yyyy.MM.dd") as String
+                        echo "${TEST_VAR}"
+                        VERSION_NUMBER = VersionNumber(versionNumberString: "${TEST_VAR}.${BUILD_ID}")
+                        currentBuild.displayName = "${VERSION_NUMBER}"
+                    }
+                }
+            }
+            stage ('Build') {
+                steps {
+                    sh 'mvn clean package -DskipTests=true -Dproject.versionNumber=${VERSION_NUMBER}'
+                }
+            }
+            stage ('Push') {
+                steps {
+                    jf 'rt u target/*.war/ artifactory-maven/ '
+ 
+                        }
+            }
+    }
+}
