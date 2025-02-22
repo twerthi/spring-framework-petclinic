@@ -28,7 +28,7 @@ pipeline {
                 steps {
                     //jf "rt u target/*.war artifactory-maven/com/octopus/PetClinic.Web/${VERSION_NUMBER}/PetClinic.Web-${VERSION_NUMBER}.war"
                     //jf version
-                    bat "mvn deploy:deploy-file -s ci_settings_artifactory.xml -DgroupId=com.octopus -DartifactId=PetClinic.Web -Dversion=${VERSION_NUMBER} -Dpackaging=war -Dfile=target\\petclinic.web.${VERSION_NUMBER}.war -DrepositoryId=artifactory -Durl=https://artifactory.octopusdemos.app/artifactory/artifactory-maven/ -DrepositoryId=artifactory-maven -DpomFile=pom.xml -DArtifactory_User={$ARTIFACTORY_USR} -DArtifactory_Password={$ARTIFACTORY_PSW}" 
+                    bat "mvn deploy:deploy-file -s ci_settings_artifactory.xml -DgroupId=com.octopus -DartifactId=PetClinic.Web -Dversion=${VERSION_NUMBER} -Dpackaging=war -Dfile=target\\petclinic.web.${VERSION_NUMBER}.war -DrepositoryId=artifactory -Durl=https://artifactory.octopusdemos.app/artifactory/artifactory-maven/ -DrepositoryId=artifactory-maven -DpomFile=pom.xml -DArtifactory_User=$ARTIFACTORY_USR -DArtifactory_Password=$ARTIFACTORY_PSW" 
                         }
             }
     }
