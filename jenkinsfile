@@ -3,6 +3,9 @@ pipeline {
     tools {
         jfrog 'JFrog CLI'
     }
+    environment {
+        ARTIFACTORY = credentials('artifactory')
+    }
     stages {
             stage ('Set version') {
                 steps {
@@ -18,13 +21,14 @@ pipeline {
                 steps {
                     bat "mvn clean package -DskipTests=true -Dproject.versionNumber=${VERSION_NUMBER} -DgroupId=com.octopus -DartifactId=PetClinic.Web"
                     bat "ren target\\petclinic2.* petclinic.*"
-                    bat "dir target"
+                    //bat "dir target"
                 }
             }
             stage ('Push') {
                 steps {
-                    jf "rt u target/*.war artifactory-maven/com/octopus/PetClinic.Web/${VERSION_NUMBER}/PetClinic.Web-${VERSION_NUMBER}.war"
+                    //jf "rt u target/*.war artifactory-maven/com/octopus/PetClinic.Web/${VERSION_NUMBER}/PetClinic.Web-${VERSION_NUMBER}.war"
                     //jf version
+                    bat "mvn deploy:deploy-file -s ci_settings_artifactory.xml -DgroupId=com.octopus -DartifactId=PetClinic.Web -Dversion=${VERSION_NUMBER} -Dpackaging=war -Dfile=target\\petclinic.web.${VERSION_NUMBER}.war -DrepositoryId=artifactory -Durl=https://artifactory.octopusdemos.app/artifactory/artifactory-maven/ -DrepositoryId=artifactory-maven -DpomFile=pom.xml -DArtifactory_User={$ARTIFACTORY_USR} -DArtifactory_Password={$ARTIFACTORY_PSW}" 
                         }
             }
     }
