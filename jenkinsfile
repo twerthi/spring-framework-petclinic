@@ -23,8 +23,8 @@ pipeline {
             }
             stage ('Push') {
                 steps {
-                    //jf 'rt u target/*.war artifactory-maven/ '
-                    jf version
+                    jf "rt u target/*.war artifactory-maven/com/octopus/PetClinic.Web/${VERSION_NUMBER}/PetClinic.Web-${VERSION_NUMBER}.war"
+                    //jf version
                         }
             }
     }
