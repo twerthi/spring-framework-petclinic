@@ -4,7 +4,7 @@ pipeline {
         jfrog 'JFrog CLI'
     }
     environment {
-        ARTIFACTORY = credentials('artifactory')
+        ARTIFACTORY = credentials('Artifactory')
     }
     stages {
             stage ('Set version') {
