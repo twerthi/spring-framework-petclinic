@@ -186,3 +186,14 @@ jobs:
           architecture: x64
     - name: Run maven build
       run: mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.web -Dversion=${{ env.PACKAGE_VERSION }} -Dfile=petclinic.web.${{ env.PACKAGE_VERSION }}.war -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot      
+
+    - name: Push build information to Octopus Deploy 🐙
+      id: push_build_information_to_octopus_deploy
+      uses: OctopusDeploy/push-build-information-action@v4
+      with:
+        octopus_api_key: ${{ secrets.DEMO_OCTOPUS_API_KEY }}
+        octopus_server_url: ${{ secrets.DEMO_OCTOPUS_URL }}
+        packages: |
+          com.octopus:petclinic.mysql.flyway
+          com.octopus:petclinic.web
+        version: "${{ env.PACKAGE_VERSION }}" 
