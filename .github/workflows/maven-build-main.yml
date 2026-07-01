@@ -53,140 +53,23 @@ jobs:
       run: 
         mvn clean package -DskipTests=true -Dspring.profiles.active=mysql -Dproject.versionNumber=${{ env.PACKAGE_VERSION }}
 
-    - name: Create settings.xml
-      shell: pwsh
-      run: |
-        Write-Host "Creating settings.xml file"
-        $fileContent = 
-        @"
-          <settings>
-          <servers>
-              <server>
-              <id>octopus-sales-public-snapshot</id>
-              <filePermissions>PublicRead</filePermissions>
-              <username>${{ secrets.AWS_ACCESS_KEY_ID }}</username>
-              <password>${{ secrets.AWS_SECRET_ACCESS_KEY }}</password>
-              <configuration>
-                  <region>ap-southeast-2</region>
-                  <publicRepository>true</publicRepository>
-              </configuration>
-              </server>
-              <server>
-              <id>octopus-sales-public-release</id>
-              <filePermissions>PublicRead</filePermissions>
-              <username>${{ secrets.AWS_ACCESS_KEY_ID }}</username>
-              <password>${{ secrets.AWS_SECRET_ACCESS_KEY }}</password>
-              <configuration>
-                  <region>ap-southeast-2</region>
-                  <publicRepository>true</publicRepository>
-              </configuration>
-              </server>
-          </servers>
-          </settings>
-        "@
-
-          Set-Content -Path "settings.xml" -Value $fileContent        
-
-
-
     - name: Zip files
       uses: vimtor/action-zip@v1.2
       with:
           files: flyway
           dest: petclinic.mysql.flyway.${{ env.PACKAGE_VERSION }}.zip
 
-
-    - name: Write pom.xml
-      shell: pwsh
-      run: |
-        Write-Host "Creating pom.xml file"
-        
-        $fileContent = 
-        @"
-        <project>
-            <groupId>com.octopus</groupId>
-            <artifactId>petclinic.mysql.flyway</artifactId>
-            <version>${{ env.PACKAGE_VERSION }}</version>
-            <modelVersion>4.0.0</modelVersion>
-            <build>
-                <extensions>
-                    <extension>
-                        <groupId>com.github.seahen</groupId>
-                        <artifactId>maven-s3-wagon</artifactId>
-                        <version>1.3.3</version>
-                    </extension>
-                </extensions>
-            </build>
-            <distributionManagement>
-                <repository>
-                    <id>maven.nuvalence.repo</id>
-                    <url>s3://octopus-sales-public-maven-repo/snapshot</url>
-                </repository>
-                <snapshotRepository>
-                    <id>maven.nuvalence.repo</id>
-                    <url>s3://octopus-sales-public-maven-repo/snapshot</url>
-                </snapshotRepository>
-            </distributionManagement>
-        </project>
-        "@
-        
-        Set-Content -Path pom.xml -Value $fileContent
-    - name: Push flyway package to Maven Repository
-      uses: actions/setup-java@v4
+    - name: Push a package to Octopus Deploy 🐙
+      id: push_a_package_to_octopus_deploy
+      uses: OctopusDeploy/push-package-action@v4
+      env:
+        OCTOPUS_URL: ${{ secrets.SERVER }}
+        OCTOPUS_API_KEY: ${{ secrets.API_KEY }}
+        OCTOPUS_SPACE: 'Default'
       with:
-          java-version: '11'
-          distribution: 'temurin'
-          architecture: x64
-    - name: Run maven build
-      run: mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.mysql.flyway -Dversion=${{ env.PACKAGE_VERSION }} -Dpackaging=zip -Dfile=petclinic.mysql.flyway.${{ env.PACKAGE_VERSION }}.zip -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot
-
-    - name: Write pom.xml
-      shell: pwsh
-      run: |
-        Write-Host "Creating pom.xml file"
-        
-        $fileContent = 
-        @"
-        <project>
-            <groupId>com.octopus</groupId>
-            <artifactId>petclinic.web</artifactId>
-            <version>${{ env.PACKAGE_VERSION }}</version>
-            <modelVersion>4.0.0</modelVersion>
-            <build>
-                <extensions>
-                    <extension>
-                        <groupId>com.github.seahen</groupId>
-                        <artifactId>maven-s3-wagon</artifactId>
-                        <version>1.3.3</version>
-                    </extension>
-                </extensions>
-            </build>
-            <distributionManagement>
-                <repository>
-                    <id>maven.nuvalence.repo</id>
-                    <url>s3://octopus-sales-public-maven-repo/snapshot</url>
-                </repository>
-                <snapshotRepository>
-                    <id>maven.nuvalence.repo</id>
-                    <url>s3://octopus-sales-public-maven-repo/snapshot</url>
-                </snapshotRepository>
-            </distributionManagement>
-        </project>
-        "@
-        
-        Set-Content -Path pom.xml -Value $fileContent
-
-    - name: Copy war file to root directory
-      run: cp target/petclinic.web.${{ env.PACKAGE_VERSION }}.war petclinic.web.${{ env.PACKAGE_VERSION }}.war
-
-    - name: Push war package to Maven Repository
-      uses: actions/setup-java@v4
-      with:
-          java-version: '11'
-          distribution: 'temurin'
-          architecture: x64
-    - name: Run maven build
-      run: mvn deploy:deploy-file --settings settings.xml -DgroupId=com.octopus -DartifactId=petclinic.web -Dversion=${{ env.PACKAGE_VERSION }} -Dfile=petclinic.web.${{ env.PACKAGE_VERSION }}.war -DrepositoryId=octopus-sales-public-snapshot -Durl=s3://octopus-sales-public-maven-repo/snapshot      
+        packages: |
+          target/petclinic2.web.${{ env.PACKAGE_VERSION }}.zip
+          petclinic.mysql.flyway.${{ env.PACKAGE_VERSION }}.zip
 
     - name: Push build information to Octopus Deploy 🐙
       id: push_build_information_to_octopus_deploy
@@ -195,6 +78,6 @@ jobs:
         octopus_api_key: ${{ secrets.DEMO_OCTOPUS_API_KEY }}
         octopus_server_url: ${{ secrets.DEMO_OCTOPUS_URL }}
         packages: |
-          com.octopus:petclinic.mysql.flyway
-          com.octopus:petclinic.web
+          petclinic.mysql.flyway
+          petclinic2.web
         version: "${{ env.PACKAGE_VERSION }}" 
