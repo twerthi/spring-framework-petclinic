@@ -77,6 +77,7 @@ jobs:
       with:
         octopus_api_key: ${{ secrets.OCTOPUS_SERVER_API_KEY }}
         octopus_server_url: ${{ secrets.OCTOPUS_SERVER_URL }}
+        octopous_space: 'Default'
         packages: |
           petclinic.mysql.flyway
           petclinic2.web
