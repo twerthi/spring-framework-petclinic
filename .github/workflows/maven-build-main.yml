@@ -63,8 +63,8 @@ jobs:
       id: push_a_package_to_octopus_deploy
       uses: OctopusDeploy/push-package-action@v4
       env:
-        OCTOPUS_URL: ${{ secrets.SERVER }}
-        OCTOPUS_API_KEY: ${{ secrets.API_KEY }}
+        OCTOPUS_URL: ${{ secrets.OCTOPUS_SERVER_URL }}
+        OCTOPUS_API_KEY: ${{ secrets.OCTOPUS_SERVER_API_KEY }}
         OCTOPUS_SPACE: 'Default'
       with:
         packages: |
@@ -75,8 +75,8 @@ jobs:
       id: push_build_information_to_octopus_deploy
       uses: OctopusDeploy/push-build-information-action@v4
       with:
-        octopus_api_key: ${{ secrets.DEMO_OCTOPUS_API_KEY }}
-        octopus_server_url: ${{ secrets.DEMO_OCTOPUS_URL }}
+        octopus_api_key: ${{ secrets.OCTOPUS_SERVER_API_KEY }}
+        octopus_server_url: ${{ secrets.OCTOPUS_SERVER_URL }}
         packages: |
           petclinic.mysql.flyway
           petclinic2.web
