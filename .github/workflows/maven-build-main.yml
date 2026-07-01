@@ -76,7 +76,7 @@ jobs:
       uses: OctopusDeploy/push-build-information-action@v4
       with:
         octopus_api_key: ${{ secrets.OCTOPUS_SERVER_API_KEY }}
-        octopus_server_url: ${{ secrets.OCTOPUS_SERVER_URL }}
+        octopus_url: ${{ secrets.OCTOPUS_SERVER_URL }}
         octopous_space: 'Default'
         packages: |
           petclinic.mysql.flyway
