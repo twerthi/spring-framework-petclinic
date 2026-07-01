@@ -68,7 +68,7 @@ jobs:
         OCTOPUS_SPACE: 'Default'
       with:
         packages: |
-          spring-framework-petclinic/target/petclinic2.web.${{ env.PACKAGE_VERSION }}.war
+          target/petclinic2.web.${{ env.PACKAGE_VERSION }}.war
           petclinic.mysql.flyway.${{ env.PACKAGE_VERSION }}.zip
 
     - name: Push build information to Octopus Deploy 🐙
