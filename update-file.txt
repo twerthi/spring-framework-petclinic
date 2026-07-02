@@ -1,2 +1,3 @@
 
 Sacrificed the sprint board then immediately reverted it
+[PET-1] Bribed 42 before standup
