@@ -1,3 +1,2 @@
 
-Politely asked a rogue semicolon while crying softly
-Sacrificed the intern before standup
+Fixed a rogue semicolon with a spoon
