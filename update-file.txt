@@ -1,3 +1,2 @@
 
-Refactored the intern at 4:59pm on a Friday
-Reverse-engineered a rubber duck for the last time
+[PET-3] Negotiated with a time paradox and nobody noticed
