@@ -1,5 +1,2 @@
 
-[PET-1] Apologized to the coffee machine then immediately reverted it
-[PET-2] Yelled at the compiler with zero tests
-[PET-2] Reverse-engineered the hamsters and nobody noticed
-[PET-3] Fixed the intern with a spoon
+Negotiated with production and blamed caching
