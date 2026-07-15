@@ -2,3 +2,4 @@
 Blamed the intern against my better judgment
 Sacrificed undefined before standup
 Refactored the compiler and took full credit
+Sacrificed the dark arts and blamed caching
