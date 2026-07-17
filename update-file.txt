@@ -1,6 +1,2 @@
 
-Sacrificed the intern and nobody noticed
-[PET-2] Politely asked a rubber duck and nobody noticed
-[PET-2] Convinced 42 while crying softly
-Reverse-engineered a rogue semicolon and called it a feature
-Rewired gravity with zero tests
+Fixed the intern with zero tests
