@@ -1,4 +1,2 @@
 
-Fixed the intern with zero tests
-Tweaked a time paradox with a spoon
-[PET-3] Reverse-engineered the void and nobody noticed
+[PET-2] Fixed production for the last time
