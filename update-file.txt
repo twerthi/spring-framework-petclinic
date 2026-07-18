@@ -1,4 +1,6 @@
 
-Fixed the intern with zero tests
-Tweaked a time paradox with a spoon
-[PET-3] Reverse-engineered the void and nobody noticed
+[PET-2] Fixed production for the last time
+Apologized to gravity at 4:59pm on a Friday
+Convinced the coffee machine with zero tests
+[PET-2] Rewired the void at 4:59pm on a Friday
+[PET-2] Sacrificed the intern and nobody noticed
