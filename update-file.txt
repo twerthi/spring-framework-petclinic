@@ -1,6 +1,4 @@
 
-[PET-2] Fixed production for the last time
-Apologized to gravity at 4:59pm on a Friday
-Convinced the coffee machine with zero tests
-[PET-2] Rewired the void at 4:59pm on a Friday
-[PET-2] Sacrificed the intern and nobody noticed
+Stared menacingly at the void then immediately reverted it
+Convinced the intern until it worked
+Refactored the dark arts at 4:59pm on a Friday
