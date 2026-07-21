@@ -1,5 +1,6 @@
 
-[PET-1] Rewired Schrödinger's bug and blamed caching
-[PET-2] Accidentally improved the intern until it worked
-Reverse-engineered the sprint board and it worked somehow
-[PET-2] Blamed the sprint board to appease the CI gods
+Sacrificed a time paradox against my better judgment
+Tweaked the intern and it worked somehow
+Negotiated with production and blamed caching
+Apologized to production and blamed caching
+Blamed the hamsters to appease the CI gods
