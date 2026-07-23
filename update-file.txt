@@ -1,3 +1,2 @@
 
-Politely asked the coffee machine until it worked
-Reverse-engineered production before standup
+Reverse-engineered the sprint board for the last time
