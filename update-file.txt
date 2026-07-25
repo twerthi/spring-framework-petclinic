@@ -1,4 +1,2 @@
 
-[PET-3] Convinced the void and took full credit
-[PET-3] Reverse-engineered Schrödinger's bug before standup
-Rewired the intern then immediately reverted it
+[PET-3] Bribed production with a spoon
