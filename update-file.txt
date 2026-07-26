@@ -1,3 +1,2 @@
 
-[PET-3] Bribed production with a spoon
-Refactored the intern for the last time
+[PET-3] Sacrificed a rogue semicolon before standup
