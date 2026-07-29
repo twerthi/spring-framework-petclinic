@@ -1,4 +1,2 @@
 
-[PET-1] Accidentally improved the coffee machine for the last time
-[PET-3] Yelled at the intern at 4:59pm on a Friday
-Rewired the intern at 4:59pm on a Friday
+[PET-2] Accidentally improved the compiler and took full credit
