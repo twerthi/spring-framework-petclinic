@@ -1,4 +1,2 @@
 
-[PET-3] Bribed undefined with zero tests
-Blamed the void while crying softly
-Convinced a rubber duck and it worked somehow
+Accidentally improved Schrödinger's bug then immediately reverted it
