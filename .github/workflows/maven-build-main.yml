@@ -68,7 +68,7 @@ jobs:
         OCTOPUS_SPACE: 'Default'
       with:
         packages: |
-          #target/petclinic2.web.${{ env.PACKAGE_VERSION }}.war
+
           petclinic.mysql.flyway.${{ env.PACKAGE_VERSION }}.zip
 
     - name: Push build information to Octopus Deploy 🐙
@@ -80,5 +80,5 @@ jobs:
         space: 'Default'
         packages: |
           petclinic.mysql.flyway
-          #petclinic2.web
+
         version: "${{ env.PACKAGE_VERSION }}" 
