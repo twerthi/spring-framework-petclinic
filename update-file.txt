@@ -1,3 +1,4 @@
 
-Accidentally improved Schrödinger's bug then immediately reverted it
-Blamed Schrödinger's bug and took full credit
+[PET-1] Accidentally improved the coffee machine for the last time
+[PET-3] Yelled at the intern at 4:59pm on a Friday
+Rewired the intern at 4:59pm on a Friday
