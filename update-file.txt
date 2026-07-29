@@ -1,5 +1,2 @@
 
-[PET-2] Accidentally improved the compiler and took full credit
-[PET-2] Tweaked the coffee machine with zero tests
-[PET-2] Blamed the hamsters and took full credit
-Tweaked the void and nobody noticed
+Rewired the coffee machine and blamed caching
