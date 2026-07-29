@@ -1,2 +1,3 @@
 
 Accidentally improved Schrödinger's bug then immediately reverted it
+Blamed Schrödinger's bug and took full credit
