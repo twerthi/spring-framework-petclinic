@@ -59,17 +59,17 @@ jobs:
           files: flyway
           dest: petclinic.mysql.flyway.${{ env.PACKAGE_VERSION }}.zip
 
-    # - name: Push a package to Octopus Deploy 🐙
-    #   id: push_a_package_to_octopus_deploy
-    #   uses: OctopusDeploy/push-package-action@v4
-    #   env:
-    #     OCTOPUS_URL: ${{ secrets.OCTOPUS_SERVER_URL }}
-    #     OCTOPUS_API_KEY: ${{ secrets.OCTOPUS_SERVER_API_KEY }}
-    #     OCTOPUS_SPACE: 'Default'
-    #   with:
-    #     packages: |
-    #       target/petclinic2.web.${{ env.PACKAGE_VERSION }}.war
-    #       petclinic.mysql.flyway.${{ env.PACKAGE_VERSION }}.zip
+    - name: Push a package to Octopus Deploy 🐙
+      id: push_a_package_to_octopus_deploy
+      uses: OctopusDeploy/push-package-action@v4
+      env:
+        OCTOPUS_URL: ${{ secrets.OCTOPUS_SERVER_URL }}
+        OCTOPUS_API_KEY: ${{ secrets.OCTOPUS_SERVER_API_KEY }}
+        OCTOPUS_SPACE: 'Default'
+      with:
+        packages: |
+          target/petclinic2.web.${{ env.PACKAGE_VERSION }}.war
+          petclinic.mysql.flyway.${{ env.PACKAGE_VERSION }}.zip
 
     - name: Push build information to Octopus Deploy 🐙
       id: push_build_information_to_octopus_deploy
