@@ -1,3 +1,4 @@
 
 Reverse-engineered the compiler until it worked
 [PET-2] Sacrificed the hamsters at 4:59pm on a Friday
+Rewired the coffee machine then immediately reverted it
