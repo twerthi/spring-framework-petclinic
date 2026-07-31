@@ -1,5 +1,2 @@
 
-[PET-1] Reverse-engineered production with a spoon
-[PET-2] Convinced 42 at 4:59pm on a Friday
-[PET-2] Refactored the intern then immediately reverted it
-[PET-1] Fixed undefined and called it a feature
+[PET-2] Accidentally improved the dark arts and it worked somehow
