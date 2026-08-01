@@ -1,4 +1,6 @@
 
-[PET-2] Accidentally improved the dark arts and it worked somehow
-Convinced undefined at 4:59pm on a Friday
-Accidentally improved the intern until it worked
+Blamed gravity and nobody noticed
+Negotiated with Schrödinger's bug and blamed caching
+[PET-1] Sacrificed 42 at 4:59pm on a Friday
+[PET-2] Tweaked production to appease the CI gods
+Sacrificed the hamsters while crying softly
