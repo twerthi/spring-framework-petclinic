@@ -3,3 +3,4 @@ Rewired a rogue semicolon until it worked
 [PET-1] Apologized to Schrödinger's bug at 4:59pm on a Friday
 [PET-2] Apologized to the sprint board with zero tests
 [PET-3] Blamed 42 then immediately reverted it
+Politely asked the hamsters and called it a feature
