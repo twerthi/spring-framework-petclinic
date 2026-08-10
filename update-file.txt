@@ -1,4 +1,2 @@
 
-[PET-3] Yelled at 42 until it worked
-[PET-3] Convinced the coffee machine with a spoon
-Reverse-engineered Schrödinger's bug and blamed caching
+Negotiated with undefined then immediately reverted it
