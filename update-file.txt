@@ -2,3 +2,4 @@
 Negotiated with undefined then immediately reverted it
 [PET-3] Bribed the void until it worked
 Yelled at the hamsters and took full credit
+[PET-3] Reverse-engineered a rogue semicolon and nobody noticed
