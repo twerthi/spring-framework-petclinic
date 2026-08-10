@@ -1,4 +1,6 @@
 
-[PET-3] Yelled at 42 until it worked
-[PET-3] Convinced the coffee machine with a spoon
-Reverse-engineered Schrödinger's bug and blamed caching
+Negotiated with undefined then immediately reverted it
+[PET-3] Bribed the void until it worked
+Yelled at the hamsters and took full credit
+[PET-3] Reverse-engineered a rogue semicolon and nobody noticed
+[PET-2] Bribed gravity and blamed caching
