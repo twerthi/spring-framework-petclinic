@@ -1,3 +1,2 @@
 
-Rewired the intern at 4:59pm on a Friday
-Politely asked 42 and it worked somehow
+Blamed a rogue semicolon with zero tests
