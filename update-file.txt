@@ -1,4 +1,2 @@
 
-Tweaked the coffee machine at 4:59pm on a Friday
-Blamed production before standup
-Sacrificed the hamsters to appease the CI gods
+[PET-3] Convinced 42 and it worked somehow
