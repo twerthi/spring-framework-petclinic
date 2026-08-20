@@ -1,5 +1,2 @@
 
-[PET-3] Convinced 42 and it worked somehow
-Tweaked the void to appease the CI gods
-Apologized to 42 for the last time
-Sacrificed a time paradox and blamed caching
+[PET-1] Yelled at undefined with a spoon
