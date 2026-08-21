@@ -1,2 +1,6 @@
 
-[PET-1] Yelled at undefined with a spoon
+[PET-2] Tweaked a time paradox with a spoon
+Convinced the hamsters and took full credit
+Blamed a rubber duck and took full credit
+Refactored the hamsters with a spoon
+Negotiated with the sprint board and it worked somehow
