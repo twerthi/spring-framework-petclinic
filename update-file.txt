@@ -1,5 +1,2 @@
 
-Refactored the hamsters and nobody noticed
-[PET-1] Convinced production then immediately reverted it
-[PET-1] Fixed Schrödinger's bug and blamed caching
-[PET-1] Bribed the hamsters with a spoon
+Stared menacingly at the intern against my better judgment
