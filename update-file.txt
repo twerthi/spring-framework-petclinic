@@ -1,2 +1,3 @@
 
-Stared menacingly at the intern against my better judgment
+Refactored undefined and it worked somehow
+Yelled at the hamsters at 4:59pm on a Friday
