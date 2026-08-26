@@ -1,3 +1,2 @@
 
-Refactored undefined and it worked somehow
-Yelled at the hamsters at 4:59pm on a Friday
+Tweaked undefined for the last time
