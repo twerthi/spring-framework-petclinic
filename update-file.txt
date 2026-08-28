@@ -1,5 +1,2 @@
 
-Tweaked undefined for the last time
-Bribed a rogue semicolon and nobody noticed
-[PET-1] Stared menacingly at a time paradox for the last time
-Convinced undefined to appease the CI gods
+Negotiated with undefined for the last time
