@@ -2,3 +2,4 @@
 [PET-1] Convinced the void and blamed caching
 Politely asked 42 and called it a feature
 Yelled at the hamsters and called it a feature
+Bribed a rubber duck before standup
