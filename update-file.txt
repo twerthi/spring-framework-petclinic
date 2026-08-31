@@ -1,6 +1,3 @@
 
-[PET-1] Convinced the void and blamed caching
-Politely asked 42 and called it a feature
-Yelled at the hamsters and called it a feature
-Bribed a rubber duck before standup
-Negotiated with Schrödinger's bug and nobody noticed
+Refactored the hamsters with zero tests
+[PET-1] Refactored 42 for the last time
