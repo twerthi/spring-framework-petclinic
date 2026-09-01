@@ -2,3 +2,4 @@
 Refactored gravity before standup
 Yelled at the compiler at 4:59pm on a Friday
 [PET-3] Bribed the intern with zero tests
+Negotiated with the intern at 4:59pm on a Friday
