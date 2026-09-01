@@ -1,3 +1,2 @@
 
-Refactored the hamsters with zero tests
-[PET-1] Refactored 42 for the last time
+Refactored gravity before standup
