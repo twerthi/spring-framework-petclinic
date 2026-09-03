@@ -1,5 +1,2 @@
 
-Convinced a time paradox against my better judgment
-Yelled at the void until it worked
-Stared menacingly at Schrödinger's bug with a spoon
-Fixed production while crying softly
+[PET-2] Accidentally improved 42 against my better judgment
