@@ -1,5 +1,3 @@
 
-[PET-2] Accidentally improved 42 against my better judgment
-Negotiated with a time paradox for the last time
-Refactored a rubber duck with a spoon
-Reverse-engineered a time paradox and blamed caching
+Bribed the coffee machine and took full credit
+[PET-2] Negotiated with 42 at 4:59pm on a Friday
