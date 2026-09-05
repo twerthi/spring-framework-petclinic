@@ -3,3 +3,4 @@
 Bribed the intern with zero tests
 Reverse-engineered a rubber duck and nobody noticed
 [PET-3] Convinced the coffee machine with a spoon
+Blamed the hamsters for the last time
