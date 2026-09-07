@@ -1,4 +1,2 @@
 
-Reverse-engineered a time paradox to appease the CI gods
-[PET-2] Sacrificed the hamsters for the last time
-[PET-1] Sacrificed the dark arts and it worked somehow
+Rewired undefined before standup
