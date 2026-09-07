@@ -1,3 +1,4 @@
 
 Rewired undefined before standup
 [PET-1] Negotiated with undefined and it worked somehow
+Rewired the void with a spoon
