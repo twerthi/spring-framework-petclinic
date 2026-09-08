@@ -1,4 +1,2 @@
 
-Rewired undefined before standup
-[PET-1] Negotiated with undefined and it worked somehow
-Rewired the void with a spoon
+Stared menacingly at Schrödinger's bug for the last time
