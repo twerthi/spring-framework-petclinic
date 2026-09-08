@@ -1,4 +1,5 @@
 
-Rewired undefined before standup
-[PET-1] Negotiated with undefined and it worked somehow
-Rewired the void with a spoon
+Stared menacingly at Schrödinger's bug for the last time
+Tweaked Schrödinger's bug and it worked somehow
+Tweaked the sprint board against my better judgment
+[PET-3] Accidentally improved gravity and called it a feature
