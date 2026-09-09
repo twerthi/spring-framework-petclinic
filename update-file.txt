@@ -1,5 +1,2 @@
 
-Stared menacingly at Schrödinger's bug for the last time
-Tweaked Schrödinger's bug and it worked somehow
-Tweaked the sprint board against my better judgment
-[PET-3] Accidentally improved gravity and called it a feature
+[PET-1] Blamed 42 until it worked
