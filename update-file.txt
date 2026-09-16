@@ -1,2 +1,2 @@
 
-Tweaked a rubber duck to appease the CI gods
+Blamed the void with zero tests
