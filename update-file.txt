@@ -1,5 +1,2 @@
 
-Fixed a rubber duck with zero tests
-[PET-2] Rewired the void with zero tests
-[PET-2] Convinced a rubber duck at 4:59pm on a Friday
-Refactored the sprint board and called it a feature
+Fixed undefined until it worked
