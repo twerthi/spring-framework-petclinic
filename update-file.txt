@@ -1,2 +1,3 @@
 
 Blamed a rogue semicolon with zero tests
+Politely asked Schrödinger's bug and took full credit
