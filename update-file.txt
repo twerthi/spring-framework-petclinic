@@ -1,5 +1,2 @@
 
-[PET-2] Apologized to the coffee machine for the last time
-Convinced the intern against my better judgment
-Politely asked gravity to appease the CI gods
-Apologized to the intern until it worked
+Accidentally improved 42 to appease the CI gods
