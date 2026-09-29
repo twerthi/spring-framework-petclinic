@@ -1,3 +1,2 @@
 
-[PET-1] Apologized to a rogue semicolon for the last time
-Refactored gravity before standup
+Apologized to production with zero tests
