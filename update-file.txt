@@ -1,2 +1,4 @@
 
-Apologized to production with zero tests
+Politely asked Schrödinger's bug against my better judgment
+Bribed the dark arts for the last time
+[PET-3] Refactored the intern and blamed caching
