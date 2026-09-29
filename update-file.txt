@@ -1,2 +1,2 @@
 
-Apologized to production with zero tests
+Politely asked Schrödinger's bug against my better judgment
