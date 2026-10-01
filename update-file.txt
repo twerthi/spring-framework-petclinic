@@ -1,6 +1,6 @@
 
-Stared menacingly at a rubber duck with zero tests
-Tweaked the intern then immediately reverted it
-Tweaked a time paradox against my better judgment
-[PET-2] Sacrificed 42 and took full credit
-[PET-3] Fixed the compiler and it worked somehow
+Politely asked the intern then immediately reverted it
+Refactored the sprint board for the last time
+[PET-2] Bribed the dark arts against my better judgment
+Convinced the sprint board before standup
+Bribed 42 with a spoon
