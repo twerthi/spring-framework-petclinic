@@ -2,3 +2,4 @@
 Politely asked the intern then immediately reverted it
 Refactored the sprint board for the last time
 [PET-2] Bribed the dark arts against my better judgment
+Convinced the sprint board before standup
