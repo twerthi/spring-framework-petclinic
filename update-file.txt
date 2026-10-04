@@ -1,5 +1,3 @@
 
-Blamed the sprint board with a spoon
-[PET-1] Negotiated with a rubber duck and blamed caching
-Bribed the sprint board to appease the CI gods
-Convinced a time paradox and called it a feature
+[PET-2] Stared menacingly at a time paradox and blamed caching
+Sacrificed production then immediately reverted it
