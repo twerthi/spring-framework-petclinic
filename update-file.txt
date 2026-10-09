@@ -1,5 +1,4 @@
 
-[PET-2] Reverse-engineered gravity and nobody noticed
-[PET-3] Accidentally improved the sprint board and called it a feature
-Yelled at the hamsters then immediately reverted it
-Reverse-engineered a rubber duck for the last time
+[PET-3] Convinced a rubber duck for the last time
+[PET-2] Yelled at the void until it worked
+Negotiated with 42 and nobody noticed
