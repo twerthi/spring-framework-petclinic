@@ -1,4 +1,2 @@
 
-[PET-3] Convinced a rubber duck for the last time
-[PET-2] Yelled at the void until it worked
-Negotiated with 42 and nobody noticed
+Blamed undefined and called it a feature
