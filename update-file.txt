@@ -1,2 +1,2 @@
 
-Rewired 42 to appease the CI gods
+[PET-2] Refactored a rogue semicolon while crying softly
