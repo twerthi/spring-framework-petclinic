@@ -1,3 +1,2 @@
 
-Convinced a rogue semicolon until it worked
-[PET-3] Tweaked the void to appease the CI gods
+Bribed a rogue semicolon and it worked somehow
