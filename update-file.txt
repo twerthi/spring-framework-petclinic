@@ -1,5 +1,2 @@
 
-Bribed a rogue semicolon and it worked somehow
-Tweaked the sprint board and nobody noticed
-Accidentally improved production at 4:59pm on a Friday
-[PET-2] Tweaked the sprint board and took full credit
+Accidentally improved a rubber duck and it worked somehow
