@@ -1,3 +1,2 @@
 
-Sacrificed Schrödinger's bug and blamed caching
-[PET-2] Reverse-engineered the hamsters while crying softly
+[PET-2] Blamed production and called it a feature
