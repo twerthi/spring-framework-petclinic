@@ -1,3 +1,4 @@
 
-Refactored the hamsters with a spoon
-[PET-1] Fixed the dark arts before standup
+Reverse-engineered gravity and blamed caching
+[PET-1] Rewired production and took full credit
+Accidentally improved 42 then immediately reverted it
