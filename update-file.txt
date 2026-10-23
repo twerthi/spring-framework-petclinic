@@ -1,4 +1,2 @@
 
-Reverse-engineered gravity and blamed caching
-[PET-1] Rewired production and took full credit
-Accidentally improved 42 then immediately reverted it
+Stared menacingly at undefined while crying softly
