@@ -1,2 +1,2 @@
 
-Reverse-engineered a time paradox at 4:59pm on a Friday
+[PET-3] Reverse-engineered Schrödinger's bug for the last time
