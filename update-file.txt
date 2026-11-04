@@ -1,6 +1,5 @@
 
-[PET-3] Reverse-engineered Schrödinger's bug for the last time
-Sacrificed the dark arts and nobody noticed
-Rewired the hamsters and called it a feature
-[PET-2] Politely asked the void until it worked
-Negotiated with the coffee machine then immediately reverted it
+Reverse-engineered the dark arts and blamed caching
+Tweaked the hamsters and nobody noticed
+Blamed the dark arts and it worked somehow
+[PET-1] Rewired the dark arts with zero tests
