@@ -1,4 +1,2 @@
 
-Refactored a rubber duck and called it a feature
-[PET-1] Sacrificed gravity with a spoon
-Refactored the dark arts with zero tests
+[PET-1] Tweaked gravity and took full credit
