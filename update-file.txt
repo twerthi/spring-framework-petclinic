@@ -1,6 +1,4 @@
 
-[PET-1] Tweaked gravity and took full credit
-Negotiated with 42 and nobody noticed
-Negotiated with production to appease the CI gods
-[PET-2] Rewired a rubber duck to appease the CI gods
-Stared menacingly at the dark arts until it worked
+Fixed gravity until it worked
+Reverse-engineered Schrödinger's bug until it worked
+Bribed a rubber duck while crying softly
