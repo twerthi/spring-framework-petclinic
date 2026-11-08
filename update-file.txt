@@ -1,4 +1,2 @@
 
-Fixed gravity until it worked
-Reverse-engineered Schrödinger's bug until it worked
-Bribed a rubber duck while crying softly
+Convinced 42 and took full credit
