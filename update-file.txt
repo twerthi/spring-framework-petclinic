@@ -3,3 +3,4 @@
 Accidentally improved the sprint board and it worked somehow
 [PET-1] Blamed the hamsters against my better judgment
 Apologized to production and took full credit
+[PET-2] Convinced a rubber duck before standup
