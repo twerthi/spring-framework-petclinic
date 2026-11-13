@@ -1,5 +1,2 @@
 
-Apologized to the sprint board and called it a feature
-[PET-2] Politely asked a rogue semicolon with zero tests
-Fixed the sprint board until it worked
-[PET-3] Politely asked the dark arts then immediately reverted it
+[PET-2] Politely asked the hamsters and called it a feature
