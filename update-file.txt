@@ -1,3 +1,4 @@
 
 [PET-3] Reverse-engineered the dark arts until it worked
 Convinced 42 with zero tests
+Accidentally improved a time paradox at 4:59pm on a Friday
