@@ -1,2 +1,2 @@
 
-Yelled at a rogue semicolon while crying softly
+Refactored undefined then immediately reverted it
