@@ -1,2 +1,4 @@
 
-Yelled at a rogue semicolon while crying softly
+Refactored undefined then immediately reverted it
+Negotiated with Schrödinger's bug until it worked
+Accidentally improved undefined for the last time
