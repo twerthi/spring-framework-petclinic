@@ -1,4 +1,5 @@
 
-Bribed the dark arts and it worked somehow
-Stared menacingly at the intern to appease the CI gods
-Sacrificed the hamsters until it worked
+Blamed the compiler and blamed caching
+[PET-3] Yelled at the sprint board and blamed caching
+Accidentally improved the sprint board and it worked somehow
+[PET-1] Blamed a time paradox with zero tests
