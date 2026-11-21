@@ -1,5 +1,5 @@
 
-Blamed the compiler and blamed caching
-[PET-3] Yelled at the sprint board and blamed caching
-Accidentally improved the sprint board and it worked somehow
-[PET-1] Blamed a time paradox with zero tests
+Convinced a rogue semicolon until it worked
+Convinced the compiler while crying softly
+Refactored the sprint board to appease the CI gods
+Stared menacingly at gravity to appease the CI gods
