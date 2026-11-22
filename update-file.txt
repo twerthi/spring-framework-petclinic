@@ -1,5 +1,4 @@
 
-Convinced a rogue semicolon until it worked
-Convinced the compiler while crying softly
-Refactored the sprint board to appease the CI gods
-Stared menacingly at gravity to appease the CI gods
+[PET-2] Refactored a rubber duck to appease the CI gods
+Fixed the sprint board with a spoon
+Blamed undefined with zero tests
